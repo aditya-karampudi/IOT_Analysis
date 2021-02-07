@@ -10,6 +10,9 @@ data, what all can we infer?.
 This repo is an example of deriving plots, deploying visualizations
 using bokeh.
 
+![]( sample_bokeh_output.PNG)
+
+
 The code is executed in jupyter notebook (amazing python language's
 interface). As, this notebook is created in 5 hours and I do not have
 the domain knowledge and business understanding of the sensor data. The
@@ -75,8 +78,7 @@ This is the value of Duration by each sensor averaged out by date.
 
 From here we find that the duration remained very low from 5 to 8 june
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\3D5D367A.tmp](media/image1.png){width="5.537312992125984in"
-height="2.732117235345582in"}
+![](media/image1.png)
 
 The Box plot were clearly saying that the duration data is scattered
 vividly. Such small box plot in figure one states the variation of
@@ -84,53 +86,45 @@ outliers. The outliers have huge values.
 
 We can keep looking at these plots and infer much more details
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\E2E63498.tmp](media/image2.png){width="4.925372922134733in"
-height="4.0303652668416445in"}
+![] (media/image2.png
 
 The duration based on sensors and days.
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\AE38BE66.tmp](media/image3.png){width="4.850745844269467in"
-height="2.9875984251968504in"}
+![](media/image3.png)
 
 The Q-Q plot clearly depicts that the distribution is greatly skewed. So
 we have to remove outliers.
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\384BBF64.tmp](media/image4.png){width="2.9925371828521437in"
-height="1.875213254593176in"}
+![](media/image4.png)
 
 This plot shows the average duration of the shower sensor on everyday.
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\3CC2AF12.tmp](media/image5.png){width="2.9328357392825897in"
-height="1.8063484251968505in"}
+![](media/image5.png)
 
 Keeping the Duration aside. I have focused on understanding the columns
 based on the instructions in metadata.
 
 Visualizing the temperature sensor values. We can find that the
-temparture setting do not change drastically they flicker between 75 and
+temperature setting do not change drastically they flicker between 75 and
 78.
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\FD7970F0.tmp](media/image6.png){width="3.855295275590551in"
-height="2.4477602799650042in"}
+![](media/image6.png)
 
 The data from light sensor is interesting as the luminous values are
 changed sporadically. With the value ranging from 18 to 136
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\3E5B347E.tmp](media/image7.png){width="3.8283584864391953in"
-height="2.264873140857393in"}
+![](media/image7.png)
 
 Plotting the humidity used each day we can conclude the humidity stays
 between 45 and 55
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\BEBC553C.tmp](media/image8.png){width="3.686567147856518in"
-height="2.340634295713036in"}
+![](media/image8.png)
 
 This small plot says that there are more number of times that bathroom
 has been used and the need of flush was not the priority. This means
 bath and other activities are more dominating than commod usage.
 
-![C:\\Users\\mohanaditaya\\AppData\\Local\\Microsoft\\Windows\\INetCache\\Content.MSO\\A22F3AAA.tmp](media/image9.png){width="2.965857392825897in"
-height="2.149254155730534in"}
+![](media/image9.png)
 
 Later on I have further cleaned the data removed unnecessary columns etc
 etc and split the data into train and test
