@@ -10,7 +10,7 @@ data, what all can we infer?.
 This repo is an example of deriving plots, deploying visualizations
 using bokeh.
 
-![]( sample_bokeh_output.PNG)
+![](media/sample_bokeh_output.PNG)
 
 
 The code is executed in jupyter notebook (amazing python language's
