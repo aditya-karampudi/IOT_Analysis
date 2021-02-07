@@ -21,7 +21,7 @@ duration column, as I am not so clear about the Objective from the pdf
 which is
 
 **Objective: The objective of this exercise is to develop an algorithm
-to identify date?time and duration when the participant is taking a
+to identify date‐time and duration when the participant is taking a
 shower.**
 
 If it is just about getting the data when the participant is having
@@ -149,4 +149,3 @@ understand the other aspects in the code.
 Happy data surfing.
 
 Signing off
-
